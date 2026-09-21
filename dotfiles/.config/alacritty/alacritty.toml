@@ -1,0 +1,17 @@
+[general]
+import = [
+    "~/.theme/alacritty/catppuccin-macchiato.toml"
+]
+
+[font]
+size = 15.0
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+
+[window.padding]
+x = 10
+y = 10
+
+[cursor]
+style = { shape = "Underline", blinking = "off" }
