@@ -1,0 +1,70 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "agent_servers": {
+    "github-copilot-cli": {
+      "type": "registry"
+    },
+    "claude-acp": {
+      "default_config_options": {
+        "fast": false
+      },
+      "type": "registry"
+    }
+  },
+  "disable_ai": false,
+  "vim": {
+    "cursor_shape": {
+      "normal": "bar"
+    },
+    "toggle_relative_line_numbers": true
+  },
+  "minimap": {
+    "max_width_columns": 50,
+    "show": "always"
+  },
+  "icon_theme": "Catppuccin Macchiato",
+  "theme": "Catppuccin Macchiato",
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "catppuccin-icons": true,
+  },
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "buffer_font_size": 14.0,
+  "buffer_line_height": "comfortable",
+  "current_line_highlight": "all",
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false,
+  },
+  "active_pane_modifiers": {
+    "inactive_opacity": 1.0,
+  },
+  "format_on_save": "on",
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": true,
+      "delay_ms": 500,
+    },
+  },
+  "tabs": {
+    "git_status": true,
+  },
+  "vim_mode": true,
+}
